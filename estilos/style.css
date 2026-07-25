@@ -12,7 +12,7 @@ body
 main
 {
     background-color: white;
-    width: 600px;
+    width: 500px;
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.293);
@@ -45,6 +45,10 @@ img.centro
 iframe {
     display: block;
     margin: 0 auto;
+    width: 100%;
+    max-width: 560px;
+    aspect-ratio: 16 / 9;
+    height: auto;
 }
 
 a
