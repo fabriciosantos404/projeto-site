@@ -12,7 +12,7 @@ body
 main
 {
     background-color: white;
-    width: 500px;
+    width: 600px;
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.293);
@@ -22,6 +22,7 @@ h1
 {
     font-size: 2em;
     color: rgb(58, 0, 112);
+    text-align: center;
 }
 
 h2
@@ -33,6 +34,17 @@ h2
 img.lado
 {
     float: right;
+}
+
+img.centro
+{
+    display: block;
+    margin: auto;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
 }
 
 a
